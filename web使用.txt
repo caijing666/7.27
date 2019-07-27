@@ -1,0 +1,15 @@
+ <html>
+   <head>
+   此处放css和js,title标题
+   <style  type="text/css">
+
+   </style>
+   <script type="text/javascript">
+   </script>
+
+   </head>
+   <body>
+   <input type="button" value="这是一个按钮"/>
+   <a href="https://www.baidu.com">这是百度链接</a>
+   </body>
+   </html>
