@@ -1,0 +1,12 @@
+import math
+a=float(input("请输入边长a=: "))
+b=float(input("请输入边长b=："))
+c=float(input("请输入边长c=："))
+
+if a+b>c and a+c>b and b+c>a:
+     C=float((a+b+c)/2)
+     s=math.sqrt(C*(C-a)*(C-b)*(C-c))
+     print("周长是=",2*C," 面积是：",s)
+
+else:
+    print("不能构成三角形")
