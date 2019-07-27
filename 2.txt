@@ -1,0 +1,29 @@
+a = str(input("请输入你的身份："))
+b = int(input("请输入你的密码："))
+if a == "方开":
+    if b == 123:
+        print("管理员")
+    else:
+        print("输入错误")
+elif a == "刘晨":
+    if b == "12345":
+        print("管理员")
+    else:
+        print("输入错误")
+elif a == "张旭":
+    if b == "123321":
+        print("管理员")
+    else:
+        print("输入错误")
+elif a == "沈章":
+    if b == "123456":
+        print("管理员")
+    else:
+        print("输入错误")
+elif a == "许景":
+    if b == "123456":
+        print("管理员")
+    else:
+        print("输入错误")
+else:
+    print("其他")
